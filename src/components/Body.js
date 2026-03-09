@@ -19,8 +19,8 @@ const Body = () => {
         );
         const json = await data.json();
         console.log(json);
-        setlistofrestaurants(json?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []);
-        setFilteredRestaurants(json?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []);
+        setlistofrestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []);
+        setFilteredRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []);
       
     };
     // if  (listofrestaurants.length === 0 ){
